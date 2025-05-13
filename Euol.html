@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>In Loving Memory of Jane Ototo</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Lato', serif;
+            color: #333;
+            line-height: 1.6;
+            background-color: #fbfaf8;
+        }
+        .memorial-container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .title-font {
+            font-family: 'Cormorant Garamond', serif;
+        }
+        .section {
+            margin-bottom: 40px;
+            position: relative;
+            padding: 25px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            background-color: white;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+        }
+        .cover-section {
+            text-align: center;
+            padding: 60px 20px;
+            background: linear-gradient(rgba(255,255,255,0.9), rgba(255,255,255,0.9)), url('https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/svg/1f54a.svg') no-repeat center/200px;
+            background-position: center;
+            border: 5px double #b8a88a;
+        }
+        .photo-frame {
+            border: 8px solid #f8f4ef;
+            box-shadow: 0 0 15px rgba(0,0,0,0.2);
+            margin: 0 auto 30px;
+            max-width: 250px;
+            overflow: hidden;
+        }
+        .section-title {
+            position: relative;
+            padding-bottom: 15px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .section-title:after {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 100px;
+            height: 2px;
+            background-color: #b8a88a;
+        }
+        .dove-accent {
+            position: absolute;
+            color: #b8a88a;
+            opacity: 0.5;
+        }
+        .top-right {
+            top: 20px;
+            right: 20px;
+        }
+        .bottom-left {
+            bottom: 20px;
+            left: 20px;
+        }
+        .footer-quote {
+            font-style: italic;
+            text-align: center;
+            color: #777;
+            padding: 15px;
+            border-top: 1px solid #eee;
+            margin-top: 20px;
+        }
+        .program-item {
+            display: flex;
+            margin-bottom: 10px;
+            border-bottom: 1px dotted #eee;
+            padding-bottom: 10px;
+        }
+        .time {
+            flex: 0 0 150px;
+            font-weight: bold;
+        }
+        .event {
+            flex: 1;
+        }
+        .hymnal {
+            background-color: #f9f8f6;
+            padding: 15px;
+            margin-bottom: 20px;
+            border-left: 3px solid #b8a88a;
+        }
+        .verse {
+            margin-bottom: 10px;
+        }
+        .tribute {
+            margin-bottom: 20px;
+            padding: 15px;
+            background-color: #f9f8f6;
+            border-radius: 10px;
+        }
+        @media print {
+            body {
+                background-color: white;
+            }
+            .section {
+                box-shadow: none;
+                border: 1px solid #eee;
+                break-inside: avoid;
+                page-break-inside: avoid;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="memorial-container">
+        <!-- Cover Page -->
+        <div class="section cover-section">
+            <h1 class="text-4xl mb-3 title-font font-bold">In Loving Memory of</h1>
+            <div class="photo-frame rounded-md overflow-hidden">
+                <img src="https://page1.genspark.site/v1/base64_upload/7c47fa7aacc28421e3dae7bf6fc8156d" alt="Jane Ototo" class="w-full">
+            </div>
+            <h2 class="text-5xl mb-2 title-font font-bold">JANE OTOTO</h2>
+            <p class="text-2xl mb-6">Sunrise: 1958 — Sunset: April 20, 2025</p>
+            <div class="flex justify-center">
+                <i class="fas fa-dove text-2xl mx-2 text-gray-400"></i>
+                <i class="fas fa-dove text-2xl mx-2 text-gray-400"></i>
+                <i class="fas fa-dove text-2xl mx-2 text-gray-400"></i>
+            </div>
+            <p class="italic text-xl mt-6">"Blessed are those who mourn, for they shall be comforted." – Matthew 5:4</p>
+        </div>
+
+        <!-- Funeral Program -->
+        <div class="section relative">
+            <i class="dove-accent fas fa-dove text-2xl top-right"></i>
+            <h2 class="section-title text-3xl title-font font-semibold">Funeral Program</h2>
+            
+            <h3 class="text-xl font-semibold mb-3">Tuesday, 13th May 2025</h3>
+            <div class="program-item">
+                <div class="time">12:00 PM</div>
+                <div class="event">Body departs from Migori Level 5 Hospital</div>
+            </div>
+            <div class="program-item">
+                <div class="time">Afterwards</div>
+                <div class="event">Journey to the family home in Nyakach Agoro</div>
+            </div>
+            <div class="program-item">
+                <div class="time">4:00 PM</div>
+                <div class="event">Arrival at home (Kokal Village), viewing of the cottage, setting up, and an overnight vigil</div>
+            </div>
+            
+            <h3 class="text-xl font-semibold mb-3 mt-6">Wednesday, 14th May 2025</h3>
+            <div class="program-item">
+                <div class="time">6:00 AM - 7:00 AM</div>
+                <div class="event">Breakfast</div>
+            </div>
+            <div class="program-item">
+                <div class="time">7:00 AM - 9:30 AM</div>
+                <div class="event">Preparations</div>
+            </div>
+            <div class="program-item">
+                <div class="time">9:30 AM - 9:45 AM</div>
+                <div class="event">Opening Ceremony by Church</div>
+            </div>
+            <div class="program-item">
+                <div class="time">9:45 AM - 10:00 AM</div>
+                <div class="event">Master of Ceremony takes over</div>
+            </div>
+            <div class="program-item">
+                <div class="time">10:00 AM - 1:00 PM</div>
+                <div class="event">Tributes and Testimonials</div>
+            </div>
+            <div class="program-item">
+                <div class="time">1:00 PM - 1:45 PM</div>
+                <div class="event">Sermon by the Church</div>
+            </div>
+            <div class="program-item">
+                <div class="time">1:45 PM - 2:35 PM</div>
+                <div class="event">Remarks from the Immediate Family</div>
+            </div>
+            <div class="program-item">
+                <div class="time">2:35 PM - 2:45 PM</div>
+                <div class="event">Eulogy</div>
+            </div>
+            <div class="program-item">
+                <div class="time">2:45 PM - 3:00 PM</div>
+                <div class="event">Vote of Thanks</div>
+            </div>
+            <div class="program-item">
+                <div class="time">3:00 PM - 3:45 PM</div>
+                <div class="event">Procession to the Grave and Burial</div>
+            </div>
+            <div class="program-item">
+                <div class="time">4:00 PM</div>
+                <div class="event">Guests depart at their convenience</div>
+            </div>
+            
+            <i class="dove-accent fas fa-dove text-2xl bottom-left"></i>
+            <div class="footer-quote">
+                "God has you in His keeping, we have you in our hearts." 
+            </div>
+        </div>
+
+        <!-- Eulogy -->
+        <div class="section relative">
+            <i class="dove-accent fas fa-dove text-2xl top-right"></i>
+            <h2 class="section-title text-3xl title-font font-semibold">Eulogy</h2>
+            
+            <h3 class="text-xl font-semibold mb-2">Early Life</h3>
+            <p class="mb-4">
+                The late Jane Ototo was born in 1958 in Sakwa Kadera (Migori County). She was the second-born daughter of the late Earnest Ogola and the late Deborah Owino. She had seven siblings: the late John Gama, the late Jeremiah Okoth, the late Fridrick, George Owuor, Minoca Anyango, Consolata Mbuya, and Susan Omollo.
+            </p>
+            
+            <h3 class="text-xl font-semibold mb-2">Education</h3>
+            <p class="mb-4">
+                Jane began her education at Ranen Primary School and later advanced to Kanyasrega Intermediate School.
+            </p>
+            
+            <h3 class="text-xl font-semibold mb-2">Family & Marriage</h3>
+            <p class="mb-4">
+                She was married to the late William Ototo of Agoro West Location as a second wife and co-wife to the late Pamela. She was the loving mother of the late Kennedy, Eunice, and Maurine. Jane was blessed with two daughters: Dorothy and Everline. She was a proud grandmother to eight grandchildren and four co-grandchildren, namely: James, Janeline, Lebrone, Clarence, Fidel, Channel, Chris, Frank, Ashley, Mitchell, Tiffany, Jayden, and the late Willy and Janevive. Her sons-in-law include: John, Benson, and Denish.
+            </p>
+            
+            <h3 class="text-xl font-semibold mb-2">Spiritual Life</h3>
+            <p class="mb-4">
+                Jane was initially a devoted member of ACK Church, and later joined The Power of Jesus Ministries, where she remained active until her passing.
+            </p>
+            
+            <h3 class="text-xl font-semibold mb-2">Livelihood</h3>
+            <p class="mb-4">
+                Jane was a committed businesswoman operating at Katito Market ("Chiro"), through which she sustained her livelihood and supported her family.
+            </p>
+            
+            <h3 class="text-xl font-semibold mb-2">Sickness & Passing</h3>
+            <p class="mb-4">
+                Jane enjoyed good health until 2019 when she developed complications and was later diagnosed with arthritis. She received treatment under the care of the Ogola family in Migori. On April 20th, 2025, at 8:30 AM, she peacefully passed away. May her soul rest in eternal peace.
+            </p>
+            
+            <i class="dove-accent fas fa-dove text-2xl bottom-left"></i>
+            <div class="footer-quote">
+                "Those we love don't go away, they walk beside us every day."
+            </div>
+        </div>
+
+        <!-- Tributes -->
+        <div class="section relative">
+            <i class="dove-accent fas fa-dove text-2xl top-right"></i>
+            <h2 class="section-title text-3xl title-font font-semibold">Tributes</h2>
+            
+            <div class="tribute">
+                <h3 class="text-xl font-semibold mb-2">Dorothy (Daughter):</h3>
+                <p class="italic">
+                    "Mum, the love and care you gave us—even in your sickness—was immeasurable. Rest in peace."
+                </p>
+            </div>
+            
+            <div class="tribute">
+                <h3 class="text-xl font-semibold mb-2">James (Grandson):</h3>
+                <p class="italic">
+                    "Dear friend, may the impact of your life guide me through every valley of hardship. May our shared dreams come to life, and may our friendship continue in spirit. Dance with angels, Grandma."
+                </p>
+            </div>
+            
+            <div class="flex justify-center my-6">
+                <i class="fas fa-dove text-2xl mx-2 text-gray-400"></i>
+                <i class="fas fa-dove text-2xl mx-2 text-gray-400"></i>
+                <i class="fas fa-dove text-2xl mx-2 text-gray-400"></i>
+            </div>
+            
+            <p class="text-center italic">
+                "Your life was a blessing, your memory a treasure. You are loved beyond words and missed beyond measure."
+            </p>
+            
+            <i class="dove-accent fas fa-dove text-2xl bottom-left"></i>
+            <div class="footer-quote">
+                "Perhaps they are not stars in the sky, but rather openings where our loved ones shine down to let us know they are happy."
+            </div>
+        </div>
+
+        <!-- Hymnals -->
+        <div class="section relative">
+            <i class="dove-accent fas fa-dove text-2xl top-right"></i>
+            <h2 class="section-title text-3xl title-font font-semibold">Hymnals</h2>
+            
+            <div class="hymnal">
+                <h3 class="text-xl font-semibold mb-2">BEDI KOD AN (Abide with me) Doh is E Flat</h3>
+                
+                <div class="verse">
+                    <p>1. Bedi koda, piny koro yusona; Polo to chido, Yesu bed koda;</p>
+                    <p>Ka onge moro madhi konyoa, Jakony jochan Iwuon, bedi koda.</p>
+                </div>
+                
+                <div class="verse">
+                    <p>2. Chieng' ndalona to koro rumona; Gik managombo tinde kadhona;</p>
+                    <p>Duto maneno lokore to tho, In mak ilokori, bedi koda.</p>
+                </div>
+                
+                <div class="verse">
+                    <p>3. Pile achando, to adwaroi, In kendi inyalo teko mar Jachien;</p>
+                    <p>In kendi itera, In midemboa, E mudho be e chieng', bedi koda</p>
+                </div>
+                
+                <div class="verse">
+                    <p>4. Onge maluoro, In kibed koda, Eka masira dak oloya ngang';</p>
+                    <p>Tho to ok rach; to liel onyal ang'o? An bend' aloyogi, ka In koda</p>
+                </div>
+                
+                <div class="verse">
+                    <p>5. Chieng' tho inyisa kaka In nitho; Ka piny ochido polo ek' orieny;</p>
+                    <p>Chieng' cha noru, to mudho duto orum, Kangima, kat' atho, bedi koda</p>
+                </div>
+            </div>
+            
+            <div class="hymnal">
+                <h3 class="text-xl font-semibold mb-2">NYIMBO ZA KRISTO Kaa Nami</h3>
+                
+                <div class="verse">
+                    <p>1. Kaa nami ni usiku tena; usiniache gizani, Bwana,</p>
+                    <p>Msaada wako haukomi; Nili peke yangu, kaa nami.</p>
+                </div>
+                
+                <div class="verse">
+                    <p>2. Siku zetu hazikawi kwisha; Sioni la kunifurahisha;</p>
+                    <p>Hakuna ambacho hakikomi, Usiye na mwisho kaa nami.</p>
+                </div>
+                
+                <div class="verse">
+                    <p>3. Nina haja nawe kila saa; sina mwingine wa kunifaa</p>
+                    <p>Mimi nitaongozwa na nani ila wewe? Bwana kaa nami.</p>
+                </div>
+                
+                <div class="verse">
+                    <p>4. Sichi neno uwapo karibu; Nipatalo lote, si taabu;</p>
+                    <p>Kifo na kaburi havikumi; Nitashinda kwako, kaa nami.</p>
+                </div>
+                
+                <div class="verse">
+                    <p>5. Nilalapo nikuone wewe; Gizani mote nimulikiwe;</p>
+                    <p>Nuru za mbinguni hazikomi, siku zangu zote; kaa nami.</p>
+                </div>
+            </div>
+            
+            <div class="hymnal">
+                <h3 class="text-xl font-semibold mb-2">Abide with me</h3>
+                
+                <div class="verse">
+                    <p>1. Abide with me; fast falls the eventide;</p>
+                    <p>The darkness deepens; Lord with me abide!</p>
+                    <p>When other helpers fail and comforts flee,</p>
+                    <p>Help of the helpless, O abide with me.</p>
+                </div>
+                
+                <div class="verse">
+                    <p>2. Swift to its close ebbs out life's little day;</p>
+                    <p>Earth's joys grow dim; its glories pass away;</p>
+                    <p>Change and decay in all around I see;</p>
+                    <p>O Thou who changest not, abide with me.</p>
+                </div>
+                
+                <div class="verse">
+                    <p>3. I need Thy presence every passing hour.</p>
+                    <p>What but Thy grace can foil the tempter's power?</p>
+                    <p>Who, like Thyself, my guide and stay can be?</p>
+                    <p>Through cloud and sunshine, Lord, abide with me.</p>
+                </div>
+                
+                <div class="verse">
+                    <p>4. I fear no foe, with Thee at hand to bless;</p>
+                    <p>Ills have no weight, and tears no bitterness.</p>
+                    <p>Where is death's sting? Where, grave, thy victory?</p>
+                    <p>I triumph still, if Thou abide with me!</p>
+                </div>
+                
+                <div class="verse">
+                    <p>5. Hold thou thy cross before my closing eyes;</p>
+                    <p>shine through the gloom and point me to the skies.</p>
+                    <p>Heaven's morning breaks, and earth's vain shadows flee;</p>
+                    <p>In life, in death, O Lord, abide with me.</p>
+                </div>
+            </div>
+            
+            <div class="hymnal">
+                <h3 class="text-xl font-semibold mb-2">NITIE WER EI CHUNYA</h3>
+                
+                <div class="verse">
+                    <p>1. Nitie wer ei chunya,</p>
+                    <p>Yesu ema wachona kama,</p>
+                    <p>"Kik iluor an ema an kodi,</p>
+                    <p>Kuom duto ma dibini."</p>
+                </div>
+                
+                <div class="verse">
+                    <p><strong>Chorus:</strong></p>
+                    <p>Yesu, Yesu, Yesu,</p>
+                    <p>E nying' mari kende,</p>
+                    <p>En momiya hawini,</p>
+                    <p>Kaketora e wende.</p>
+                </div>
+                
+                <div class="verse">
+                    <p>2. Kirito chunya e richo,</p>
+                    <p>Nimiya kuweni pile,</p>
+                    <p>Yesu nobiro duogo chunya,</p>
+                    <p>Eka nodwara kende.</p>
+                </div>
+                
+                <div class="verse">
+                    <p>3. Kawuono ayieng' ie dalane,</p>
+                    <p>Kawuono ayueyo kuome,</p>
+                    <p>Kawuono ang'iyo wang'e,</p>
+                    <p>Emomiyo awerne.</p>
+                </div>
+                
+                <div class="verse">
+                    <p>4. Chieng' moro otelona ei pi,</p>
+                    <p>Chieng' moro otelona ei chandruok,</p>
+                    <p>Chieng' moro yore tek ngang',</p>
+                    <p>Ng'a matelona nitie</p>
+                </div>
+            </div>
+            
+            <i class="dove-accent fas fa-dove text-2xl bottom-left"></i>
+            <div class="footer-quote">
+                "Amazing grace shall always be my song of praise, for it was grace that bought my liberty."
+            </div>
+        </div>
+        
+        <!-- Farewell -->
+        <div class="section text-center">
+            <h2 class="text-3xl title-font font-semibold mb-4">Farewell, Dear Jane</h2>
+            <div class="flex justify-center mb-6">
+                <i class="fas fa-dove text-3xl mx-3 text-gray-400"></i>
+                <i class="fas fa-dove text-3xl mx-3 text-gray-400"></i>
+                <i class="fas fa-dove text-3xl mx-3 text-gray-400"></i>
+            </div>
+            <p class="text-xl italic mb-6">
+                "Until we meet again, may God hold you in the palm of His hand."
+            </p>
+            <p class="mb-4">
+                With love and cherished memories,<br>
+                Family, Friends, and All Who Loved You
+            </p>
+        </div>
+    </div>
+</body>
+</html>
